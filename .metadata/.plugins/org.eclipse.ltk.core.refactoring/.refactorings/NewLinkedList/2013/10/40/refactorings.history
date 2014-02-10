@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 4 elements to &apos;NewLinkedList/src/edu.cuny.lehman.cmp338.list&apos;&#x0A;- Original project: &apos;NewLinkedList&apos;&#x0A;- Destination element: &apos;NewLinkedList/src/edu.cuny.lehman.cmp338.list&apos;&#x0A;- Original elements:&#x0A;     LinkedList.java&#x0A;     NewArrayList.java&#x0A;     NewLinkedList.java&#x0A;     List.java&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src&lt;edu.cuny.lehman.cmp338.list" element1="/src&lt;{LinkedList.java" element2="/src&lt;{NewArrayList.java" element3="/src&lt;{NewLinkedList.java" element4="/src&lt;{List.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1380661736973" units="4" version="1.0"/>
+</session>
