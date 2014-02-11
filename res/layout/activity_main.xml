@@ -8,27 +8,34 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-   
-    <Button
+      <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="show toast"
-        android:onClick="showToast" 
+        android:text="Change Text"
+        android:onClick="buttonOnClick" 
         />
-    <EditText
+    
+
+      <EditText
         android:id="@+id/input_text"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
          />
+
+     
       
-    <TextView
+      <TextView
         android:id="@+id/output_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=" my output text"
-        />
+        android:text= "my output text"
+         /> 
     
+      
+
     
+  
         
 </LinearLayout>
 
