@@ -25,7 +25,7 @@
         android:id="@+id/output_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="this is my output text"
+        android:text=" my output text"
         />
     
     
