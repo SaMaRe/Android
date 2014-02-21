@@ -18,20 +18,15 @@ import android.widget.Toast;
 
 
 public class MainActivity extends Activity {
-
+  
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-
 		super.onCreate(savedInstanceState);
-		
 		setContentView(R.layout.activity_main);
 	}
-	public void toLinearLayout(View view)
-	{
-		Intent intent = new Intent(this,LinearLayoutActivity.class);
+	public void toNewActivity(View view){
+		Intent intent = new Intent(this, NewActivity.class);
 		startActivity(intent);
-		
-		
 	}
 		
 
