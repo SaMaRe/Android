@@ -1,5 +1,4 @@
 
-
 package com.example.android;
 
 import android.os.Bundle;
@@ -26,10 +25,10 @@ public class MainActivity extends Activity {
 		SharedPreferences actvs = PreferenceManager.getDefaultSharedPreferences(MainActivity.this);
 		boolean checkBox = actvs.getBoolean("pref_activity1", true);
 		if (checkBox == false){
-			btn.setTextAppearance(this,R.style.label1);
+			btn.setTextAppearance(this,R.style.label);
 		}
 		else
-			btn.setTextAppearance(this,  R.style.label);
+			btn.setTextAppearance(this,  R.style.label1);
 		
 
 }	
